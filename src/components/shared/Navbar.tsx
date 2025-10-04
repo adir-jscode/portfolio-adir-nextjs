@@ -47,7 +47,7 @@ export default function Navbar() {
             asChild
             className=" rounded-full px-5 py-2 text-sm md:text-base bg-orange-600 hover:bg-orange-700 text-white"
           >
-            <Link href="#login">Login</Link>
+            <Link href="/login">Login</Link>
           </Button>
         </nav>
       </div>

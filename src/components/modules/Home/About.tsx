@@ -6,7 +6,7 @@ export default function AboutSection() {
     <section id="about" className="py-16 px-4 bg-muted/30">
       <div className="container mx-auto max-w-4xl">
         <h3 className="text-3xl font-serif font-bold text-center mb-12 text-foreground">
-          About Me
+          About <span className="text-orange-600">Me</span>
         </h3>
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="order-2 md:order-1">
@@ -46,7 +46,7 @@ export default function AboutSection() {
                   variant="secondary"
                   className="bg-primary/10 text-primary border-primary/20"
                 >
-                  ASP.NET Core
+                  JavaScript
                 </Badge>
                 <Badge
                   variant="secondary"
@@ -58,25 +58,27 @@ export default function AboutSection() {
                   variant="secondary"
                   className="bg-primary/10 text-primary border-primary/20"
                 >
-                  SQL Server
+                  Next.js
                 </Badge>
                 <Badge
                   variant="secondary"
                   className="bg-primary/10 text-primary border-primary/20"
                 >
-                  JavaScript
+                  ASP.NET Core
                 </Badge>
+
+                <Badge
+                  variant="secondary"
+                  className="bg-primary/10 text-primary border-primary/20"
+                >
+                  PostgreSQL
+                </Badge>
+
                 <Badge
                   variant="secondary"
                   className="bg-primary/10 text-primary border-primary/20"
                 >
                   React
-                </Badge>
-                <Badge
-                  variant="secondary"
-                  className="bg-primary/10 text-primary border-primary/20"
-                >
-                  Next.js
                 </Badge>
               </div>
             </div>
