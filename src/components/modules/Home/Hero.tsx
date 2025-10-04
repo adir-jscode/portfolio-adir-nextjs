@@ -5,7 +5,7 @@ import Link from "next/link";
 export default function Hero() {
   return (
     <section className="bg-[#fefcf9] py-16">
-      <div className="container mx-auto flex flex-col md:flex-row items-center justify-between px-6">
+      <div className="container mx-auto max-w-7xl flex flex-col md:flex-row items-center justify-between px-6">
         {/* Left Side - Text */}
         <div className="max-w-lg">
           <h1 className="text-4xl md:text-5xl font-bold leading-tight">

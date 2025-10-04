@@ -2,7 +2,7 @@ import LoginForm from "@/components/modules/Auth/LoginForm";
 import { Lock } from "lucide-react";
 
 export const metadata = {
-  title: "Login | Adir Portfolio",
+  title: "Login - Md Sarafat Ali Adir",
   description: "Private access for portfolio owner",
 };
 
